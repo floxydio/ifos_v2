@@ -15,7 +15,7 @@
 |
 */
 
-$config['base_url'] = 'http://103.157.97.25:8080/';
+$config['base_url'] = 'http://103.157.97.25:8080/ifos_v1/';
 
 /*
 $config['base_url']	= "http://".$_SERVER['HTTP_HOST'].
