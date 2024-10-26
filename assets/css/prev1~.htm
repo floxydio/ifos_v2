@@ -1,0 +1,164 @@
+<html><head><title>Preview</title>
+<style type="text/css"><!--
+body,html{
+    height: 100%;
+  }
+
+  nav.sidebar, .main{
+    -webkit-transition: margin 200ms ease-out;
+      -moz-transition: margin 200ms ease-out;
+      -o-transition: margin 200ms ease-out;
+      transition: margin 200ms ease-out;
+  }
+
+  .main{
+    padding: 10px 10px 0 10px;
+  }
+
+ @media (min-width: 765px) {
+
+    .main{
+      position: absolute;
+      width: calc(100% - 40px);
+      margin-left: -300px;
+      float: right;
+    }
+
+    nav.sidebar:hover + .main{
+      margin-left: 200px;
+    }
+
+    nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+      margin-left: 0px;
+    }
+
+    nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+      text-align: center;
+      width: 100%;
+      margin-left: 0px;
+    }
+
+    nav.sidebar a{
+      padding-right: 13px;
+    }
+
+    nav.sidebar .navbar-nav > li:first-child{
+      border-top: 1px #e5e5e5 solid;
+    }
+
+    nav.sidebar .navbar-nav > li{
+      border-bottom: 1px #e5e5e5 solid;
+    }
+
+    nav.sidebar .navbar-nav .open .dropdown-menu {
+      position: static;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+      padding: 0 0px 0 0px;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+      color: #777;
+    }
+
+    nav.sidebar{
+      width: 200px;
+      height: 100%;
+      margin-left: -160px;
+      float: left;
+      margin-bottom: 0px;
+    }
+
+    nav.sidebar li {
+      width: 100%;
+    }
+
+    nav.sidebar:hover{
+      margin-left: 0px;
+    }
+
+    .forAnimate{
+      opacity: 0;
+    }
+  }
+
+  @media (min-width: 1330px) {
+
+    .main{
+      width: calc(100% - 200px);
+      margin-left: 200px;
+    }
+
+    nav.sidebar{
+      margin-left: 0px;
+      float: left;
+    }
+
+    nav.sidebar .forAnimate{
+      opacity: 1;
+    }
+  }
+
+  nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #CCC;
+    background-color: transparent;
+  }
+
+  nav:hover .forAnimate{
+    opacity: 1;
+  }
+  section{
+    padding-left: 15px;
+  }
+
+
+
+--></style>
+</head>
+<body>
+<a name="0"></a><body>Element body</body><br>
+<a name="1"></a><html>Element html</html><br>
+<a name="2"></a><nav class="sidebar">Element nav, Class sidebar</nav><br>
+<a name="3"></a><div class="main">Class main</div>
+<br>
+<a name="4"></a><div class="main">Class main</div>
+<br>
+<a name="5"></a><div class="main ((min-width">Class main ((min-width</div>
+<br>
+<a name="6"></a><nav class="sidebar">Element nav, Class sidebar</nav><br>
+<a name="7"></a><nav class="sidebar.navbar.sidebar>.container .navbar-brand ((min-width">Element nav, Class sidebar.navbar.sidebar>.container .navbar-brand ((min-width</nav><br>
+<a name="8"></a><div class="navbar>.container-fluid .navbar-brand ((min-width">Class navbar>.container-fluid .navbar-brand ((min-width</div>
+<br>
+<a name="9"></a><nav class="sidebar .navbar-brand ((min-width">Element nav, Class sidebar .navbar-brand ((min-width</nav><br>
+<a name="10"></a><nav class="sidebar .navbar-header ((min-width">Element nav, Class sidebar .navbar-header ((min-width</nav><br>
+<a name="11"></a><nav class="sidebar a ((min-width">Element nav, Class sidebar a ((min-width</nav><br>
+<a name="12"></a><nav class="sidebar .navbar-nav > li">Element nav, Class sidebar .navbar-nav > li</nav><br>
+<a name="13"></a><nav class="sidebar .navbar-nav > li ((min-width">Element nav, Class sidebar .navbar-nav > li ((min-width</nav><br>
+<a name="14"></a><nav class="sidebar .navbar-nav .open .dropdown-menu ((min-width">Element nav, Class sidebar .navbar-nav .open .dropdown-menu ((min-width</nav><br>
+<a name="15"></a><nav class="sidebar .navbar-collapse ((min-width">Element nav, Class sidebar .navbar-collapse ((min-width</nav><br>
+<a name="16"></a><nav class="sidebar .container-fluid ((min-width">Element nav, Class sidebar .container-fluid ((min-width</nav><br>
+<a name="17"></a><div class="navbar-inverse .navbar-nav .open .dropdown-menu>li>a ((min-width">Class navbar-inverse .navbar-nav .open .dropdown-menu>li>a ((min-width</div>
+<br>
+<a name="18"></a><nav class="sidebar ((min-width">Element nav, Class sidebar ((min-width</nav><br>
+<a name="19"></a><nav class="sidebar li ((min-width">Element nav, Class sidebar li ((min-width</nav><br>
+<a name="20"></a><nav class="sidebar">Element nav, Class sidebar</nav><br>
+<a name="21"></a><div class="forAnimate ((min-width">Class forAnimate ((min-width</div>
+<br>
+<a name="22"></a><div class="main ((min-width">Class main ((min-width</div>
+<br>
+<a name="23"></a><nav class="sidebar ((min-width">Element nav, Class sidebar ((min-width</nav><br>
+<a name="24"></a><nav class="sidebar .forAnimate ((min-width">Element nav, Class sidebar .forAnimate ((min-width</nav><br>
+<a name="25"></a><nav class="sidebar .navbar-nav .open .dropdown-menu>li>a">Element nav, Class sidebar .navbar-nav .open .dropdown-menu>li>a</nav><br>
+<a name="26"></a><nav class="sidebar .navbar-nav .open .dropdown-menu>li>a">Element nav, Class sidebar .navbar-nav .open .dropdown-menu>li>a</nav><br>
+<a name="27"></a><nav>Element nav</nav><br>
+<a name="28"></a><section>Element section</section><br>
+
+</body></html>
