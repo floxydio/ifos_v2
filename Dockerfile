@@ -1,20 +1,24 @@
-# Use an official PHP image with Apache
-FROM php:5.6-apache
+# Dockerfile
 
-# Enable mod_rewrite for CodeIgniter's URL rewriting
+FROM php:7.4-apache
+
+# Set ServerName to suppress the warning
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+
+# Enable mod_rewrite for Apache
 RUN a2enmod rewrite
 
-# Set the working directory to /var/www/html, where Apache serves files
-WORKDIR /var/www/html
+# Configure Apache to allow .htaccess overrides
+RUN echo "<Directory /var/www/html/ifos_v1>\n\
+    Options -Indexes\n\
+    AllowOverride All\n\
+    Require all granted\n\
+</Directory>" >> /etc/apache2/apache2.conf
 
-# Copy the application code to the container
-COPY . /var/www/html
+# Copy application files into the ifos_v1 directory
+RUN mkdir -p /var/www/html/ifos_v1
+COPY . /var/www/html/ifos_v1
 
-# Set permissions for the /var/www/html directory
-RUN chown -R www-data:www-data /var/www/html && chmod -R 755 /var/www/html
-
-# Install MySQL extensions if your CodeIgniter app uses a MySQL database
-RUN docker-php-ext-install mysqli pdo pdo_mysql
-
-# Expose port 80
-EXPOSE 80
+# Set appropriate permissions
+RUN chown -R www-data:www-data /var/www/html/ifos_v1 \
+    && chmod -R 755 /var/www/html/ifos_v1

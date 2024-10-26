@@ -1,0 +1,1 @@
+localhost:80 172.19.0.1 - - [26/Oct/2024:07:47:21 +0000] "GET /ifos_v1/ HTTP/1.1" 500 800 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"

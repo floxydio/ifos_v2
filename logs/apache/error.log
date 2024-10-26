@@ -1,0 +1,121 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 26 06:46:37.940810 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 06:46:37.940875 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 06:51:00.944998 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Oct 26 06:51:02.710039 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 06:51:02.710076 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 06:51:45.198286 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Oct 26 06:52:34.655974 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 06:52:34.656026 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 06:56:13.408446 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Oct 26 06:56:15.311342 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 06:56:15.311399 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 06:56:21.404627 2024] [core:alert] [pid 18] [client 172.19.0.1:53394] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 06:57:26.158390 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Oct 26 06:57:28.039577 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 06:57:28.039632 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 06:57:29.697181 2024] [core:alert] [pid 17] [client 172.19.0.1:45706] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 06:57:30.583746 2024] [core:alert] [pid 18] [client 172.19.0.1:45712] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 06:57:31.282950 2024] [core:alert] [pid 19] [client 172.19.0.1:45718] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 06:57:32.808381 2024] [core:alert] [pid 20] [client 172.19.0.1:45726] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:01:03.616876 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Oct 26 07:01:05.381689 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:01:05.381728 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:01:10.082463 2024] [core:alert] [pid 17] [client 172.19.0.1:50898] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:01:11.683220 2024] [core:alert] [pid 18] [client 172.19.0.1:50910] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:01:25.419710 2024] [core:alert] [pid 19] [client 172.19.0.1:59268] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:01:29.204247 2024] [core:alert] [pid 20] [client 172.19.0.1:38296] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:02:05.067426 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Oct 26 07:02:06.977832 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:02:06.977895 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:02:11.037509 2024] [core:alert] [pid 17] [client 172.19.0.1:49152] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:02:11.755469 2024] [core:alert] [pid 18] [client 172.19.0.1:49166] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:03:11.538757 2024] [core:alert] [pid 19] [client 172.19.0.1:53220] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:04:53.171486 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Oct 26 07:04:54.949598 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:04:54.949637 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:05:04.464360 2024] [core:alert] [pid 18] [client 172.19.0.1:38284] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:05:05.273524 2024] [core:alert] [pid 19] [client 172.19.0.1:38296] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:05:49.950612 2024] [core:alert] [pid 17] [client 172.19.0.1:47004] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:05:51.469840 2024] [core:alert] [pid 20] [client 172.19.0.1:47008] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:08:38.932499 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 26 07:08:40.781095 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:08:40.781153 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:08:49.268356 2024] [core:alert] [pid 17] [client 172.19.0.1:43020] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:08:50.383187 2024] [core:alert] [pid 18] [client 172.19.0.1:43036] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:09:09.472196 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Oct 26 07:10:57.362158 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:10:57.362189 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:11:21.404014 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Oct 26 07:11:23.549076 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:11:23.549114 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:11:43.235813 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Oct 26 07:11:45.058606 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:11:45.058656 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:11:50.327845 2024] [core:alert] [pid 17] [client 172.19.0.1:37436] /var/www/html/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:15:36.935950 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 26 07:16:08.869561 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:16:08.869613 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:16:10.446889 2024] [autoindex:error] [pid 17] [client 172.19.0.1:55478] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Oct 26 07:16:11.606130 2024] [autoindex:error] [pid 17] [client 172.19.0.1:55478] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Oct 26 07:16:17.211021 2024] [core:alert] [pid 18] [client 172.19.0.1:52916] /var/www/html/ifos_v1/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:16:19.651690 2024] [autoindex:error] [pid 19] [client 172.19.0.1:52926] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Oct 26 07:16:30.134959 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 26 07:17:39.328403 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:17:39.328439 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:17:42.560397 2024] [autoindex:error] [pid 17] [client 172.19.0.1:60856] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Oct 26 07:17:43.352830 2024] [autoindex:error] [pid 18] [client 172.19.0.1:60864] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Oct 26 07:17:46.654662 2024] [core:alert] [pid 18] [client 172.19.0.1:60864] /var/www/html/ifos_v1/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:18:17.284017 2024] [core:alert] [pid 19] [client 172.19.0.1:39920] /var/www/html/ifos_v1/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:18:20.638358 2024] [autoindex:error] [pid 20] [client 172.19.0.1:39928] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Oct 26 07:20:35.591283 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 26 07:20:37.494540 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:20:37.494573 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:21:00.090500 2024] [autoindex:error] [pid 17] [client 172.19.0.1:50954] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Oct 26 07:21:04.372213 2024] [core:alert] [pid 17] [client 172.19.0.1:50954] /var/www/html/ifos_v1/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:22:28.894570 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 26 07:22:30.950693 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:22:30.950724 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:22:35.664508 2024] [autoindex:error] [pid 18] [client 172.19.0.1:38088] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Oct 26 07:22:40.685289 2024] [core:alert] [pid 17] [client 172.19.0.1:51924] /var/www/html/ifos_v1/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:24:51.322080 2024] [core:alert] [pid 19] [client 172.19.0.1:40206] /var/www/html/ifos_v1/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:24:51.973595 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 26 07:24:53.997170 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:24:53.997204 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:25:16.690048 2024] [core:alert] [pid 17] [client 172.19.0.1:60426] /var/www/html/ifos_v1/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:25:18.597923 2024] [core:alert] [pid 18] [client 172.19.0.1:60436] /var/www/html/ifos_v1/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:25:24.894718 2024] [core:alert] [pid 19] [client 172.19.0.1:60442] /var/www/html/ifos_v1/.htaccess: RewriteBase takes one argument, the base URL of the per-directory context
+[Sat Oct 26 07:27:15.860771 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 26 07:27:17.809142 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:27:17.809186 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:27:45.869376 2024] [autoindex:error] [pid 19] [client 172.19.0.1:49036] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Oct 26 07:29:38.518490 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 26 07:30:16.227949 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:30:16.227993 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:35:26.268589 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 26 07:36:25.114965 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:36:25.114997 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:36:53.948398 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 26 07:37:04.506233 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:37:04.506285 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:39:34.305662 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Oct 26 07:39:36.496776 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:39:36.496883 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:39:43.493702 2024] [autoindex:error] [pid 18] [client 172.19.0.1:33266] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Oct 26 07:41:33.196588 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Oct 26 07:41:35.072871 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:41:35.072926 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:47:11.830832 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Oct 26 07:47:13.649509 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Sat Oct 26 07:47:13.649545 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 26 07:47:21.208215 2024] [core:error] [pid 17] [client 172.19.0.1:52300] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.

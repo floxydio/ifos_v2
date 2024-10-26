@@ -1,11 +1,11 @@
-version: '3.8'
-
+# docker-compose.yml
 services:
   web:
-    build:
-      context: .     # Use current directory for Dockerfile
-    container_name: codeigniter_app
+    build: .  # Use Dockerfile in the current directory
+    container_name: apache_server
     ports:
-      - "8080:80"    # Map port 8080 on your host to port 80 in the container
+      - "8080:80"
     volumes:
-      - .:/var/www/html  # Mount the current directory to the container
+      - .:/var/www/html/ifos_v1                 # Mount application files
+      - ./logs/apache:/var/log/apache2           # Mount Apache logs to the host
+      - ./my.conf:/etc/apache2/conf-enabled/my.conf

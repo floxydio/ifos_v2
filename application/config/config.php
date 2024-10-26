@@ -15,7 +15,7 @@
 |
 */
 
-$config['base_url'] = 'http://localhost/ifos_v1/';
+$config['base_url'] = 'http://localhost:8080/ifos_v1/';
 
 /*
 $config['base_url']	= "http://".$_SERVER['HTTP_HOST'].
@@ -50,7 +50,7 @@ $config['index_page'] = '';
 | 'ORIG_PATH_INFO'	Uses the ORIG_PATH_INFO
 |
 */
-$config['uri_protocol']	= 'AUTO';
+$config['uri_protocol']	= 'REQUEST_URI';
 
 /*
 |--------------------------------------------------------------------------
@@ -187,7 +187,7 @@ $config['directory_trigger']	= 'd'; // experimental not currently in use
 | your log files will fill up very fast.
 |
 */
-$config['log_threshold'] = 0;
+$config['log_threshold'] = 4;
 
 /*
 |--------------------------------------------------------------------------
