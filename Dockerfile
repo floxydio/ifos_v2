@@ -4,7 +4,7 @@
 FROM php:7.4-apache
 
 # Set ServerName to suppress Apache warning
-RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+RUN echo "ServerName 103.157.97.25" >> /etc/apache2/apache2.conf
 
 # Enable mod_rewrite for Apache
 RUN a2enmod rewrite
